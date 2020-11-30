@@ -1,0 +1,117 @@
+body{
+  font-family: Lato, "Trebuchet MS", "Verdana", "sans-serif";
+  background-color:rgb(19, 20, 22);
+  overflow:hidden;
+}
+
+h2{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 800;
+  padding: 10px 5%;
+  color: white;
+}
+
+.my-button{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin-bottom: 20px;
+  color:black;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: all .35s;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+a:hover:after{
+  width: 100%;
+  text-decoration:none;
+}
+
+#Gryffindor{
+  border: 2px solid #e80909;
+  color: white;
+}
+
+#Gryffindor:hover:after{
+  background: #e80909;
+  color: white;
+}
+
+#Slytherin{
+  border: 2px solid #29a815;
+  color: white;
+}
+
+#Slytherin:hover:after{
+  background: #29a815;
+  color: white;
+}
+
+#Ravenclaw{
+  border: 2px solid #1d4db2;
+  color: white;
+}
+
+#Ravenclaw:hover:after{
+  background: #1d4db2;
+  color: white;
+}
+
+#Hufflepuff{
+  border: 2px solid #ffdb58;
+  color: white;
+}
+
+#Hufflepuff:hover:after{
+  background: #ffdb58;
+  color: white;
+}
+
+#Devs{
+  border: 2px solid white;
+  color: white;
+  margin-top: 80px;
+}
+
+#Devs:hover{
+  color: black;
+}
+
+#Devs:hover:after{
+  color: black;
+  background: white;
+}
