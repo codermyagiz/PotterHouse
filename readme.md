@@ -25,7 +25,7 @@ Karakterlerin;
  - Göz Rengi,
  - Doğum Yılı,
  - Patronus,
- - Hayatta olup olmadıkları,
+ - Hayatta olup olmadıkları, -*Harry Potter'da*
  - Resimleri hakkında bilgi verir.
 
 ## Geliştiriciler
