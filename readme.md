@@ -1,8 +1,8 @@
 # PotterHouse
-[![PotterHouse](ph.png)](https://hp.yagizyasak.me)
+[![PotterHouse](ph.png)](https://potterhouse.netlify.app/)
 
 ## PotterHouse Nedir?
-[PotterHouse](https://hp.yagizyasak.me), Harry Potter'daki House'lar hakkında bilgi veren bir proje.
+[PotterHouse](https://potterhouse.netlify.app/), Harry Potter'daki House'lar hakkında bilgi veren bir proje.
 
 ## PotterHouse API
 PotterHouse'daki karakterlerin bilgilerini çekmek için bir API yazdık. Yazdığımız API'ler:
